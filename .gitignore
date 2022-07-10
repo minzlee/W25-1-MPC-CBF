@@ -1,6 +1,8 @@
 # MATLAB
 # Windows default autosave extension
 *.asv
+*.eps
+pathdef.m
 
 # OSX / *nix default autosave extension
 *.m~
@@ -161,3 +163,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Package files
+packages/
