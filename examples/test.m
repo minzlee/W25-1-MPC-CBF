@@ -1,5 +1,8 @@
+clc
 close all
 clear
+addpath(genpath('../packages/Ipopt'))
+addpath(genpath('../../YALMIP'))
 
 %% General Flags
 run_dclf_dcbf = true;
